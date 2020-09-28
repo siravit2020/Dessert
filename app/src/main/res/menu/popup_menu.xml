@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_delete"
+        android:title="@string/start_chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:iconTint="@color/nav_color"/>
+    <item android:id="@+id/menu_unmatch"
+         android:title="@string/cancel_match"
+        android:icon="@drawable/ic_do_not_disturb_black_24dp"
+        />
+    <item android:id="@+id/menu_warnng2"
+        android:title="@string/dialog_report"
+        android:icon="@drawable/ic_warning_black_24dp"
+        />
+
+</menu>

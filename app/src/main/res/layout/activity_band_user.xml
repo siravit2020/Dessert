@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BandUser">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_banduser"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="บีญชีของคุณถูกระงับการใช้งาน"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/roundlike"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/back"
+        android:textColor="@color/cpb_white"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

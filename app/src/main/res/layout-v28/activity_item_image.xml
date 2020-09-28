@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageChat.ItemImageActivity">
+    <LinearLayout
+        android:id="@+id/nav_linear"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded">
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back_forward"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name_sender_image"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="9dp"
+                android:layout_gravity="bottom"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=""/>
+            <TextView
+                android:layout_marginBottom="2dp"
+                android:id="@+id/image_date_front"
+                android:layout_marginStart="9dp"
+                android:gravity=""
+                android:textSize="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=""/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="end">
+            <Button
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_apps_black_24dp"
+                android:id="@+id/button_all_image"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_viewpager"
+        android:layout_below="@id/nav_linear"
+        android:layout_above="@+id/lili_image_chat"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/page_image_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linear_recycler_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/nav_linear"
+        android:layout_above="@id/lili_image_chat"
+        >
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nest_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_image"
+                android:layout_width="match_parent"
+                app:stackFromEnd="true"
+                android:layout_height="match_parent"/>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lili_image_chat"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:textColor="@color/c3"
+                android:textStyle="bold"
+                android:id="@+id/count_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/0"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

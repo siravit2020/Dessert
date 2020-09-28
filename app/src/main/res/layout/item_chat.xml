@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/image_holder"
+            android:layout_marginEnd="3dp"/>
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:id="@+id/lilili"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:paddingStart="6dp"
+                            android:paddingEnd="6dp"
+                            android:id="@+id/time_chat_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Time"
+                            android:paddingBottom="3dp"
+                            android:textSize="10.5dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:paddingTop="6dp"
+                        android:paddingBottom="6dp"
+                        android:id="@+id/lili"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:id="@+id/play_audio"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/ic_play_circle_outline_black_24dp"
+                            />
+                        <ProgressBar
+                            android:layout_marginStart="10dp"
+                            android:visibility="gone"
+                            android:id="@+id/progressBar_playAudio"
+                            android:layout_below="@+id/Linear_top_chat"
+                            android:layout_centerHorizontal="true"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            />
+
+
+                        <TextView
+                            android:visibility="gone"
+                            android:padding="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00:00"
+                            android:id="@+id/begin_audio"/>
+
+                        <com.ldoublem.loadingviewlib.LVCircularCD
+                            android:visibility="gone"
+                            android:id="@+id/play_pause_animate"
+                            android:layout_gravity="center"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:paddingStart="8dp"
+                            android:paddingEnd="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Text"
+                            android:id="@+id/chatmessage"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/li"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/float_transparent"
+                        android:padding="2dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:background="@color/float_transparent"
+                            app:cardCornerRadius="10dp">
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/float_transparent">
+
+                                <ImageView
+                                    android:id="@+id/img_sent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="210dp"
+
+                                    android:background="@color/float_transparent"
+                                    android:adjustViewBounds="true"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/match_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/chk_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/chk_image_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/audio_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/match_id_real_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

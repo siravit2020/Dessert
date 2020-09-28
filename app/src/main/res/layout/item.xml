@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <com.google.android.material.card.MaterialCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CardView_layout"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:layout_centerVertical="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/image"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/gradientblack"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/gradientblack2" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_star"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/cname"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_star"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:id="@+id/sendstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#80FFB700"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:maxLines="1"
+                android:textColor="@color/c3"
+                android:textSize="20dp"
+                android:text="ส่งดาวให้คุณ"
+                 />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#80292929"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:ellipsize="end"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/lay"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            tools:text="ชื่อ" />
+
+        <ImageView
+            android:id="@+id/on_off"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/offline_user"
+            app:layout_constraintBottom_toBottomOf="@+id/cage"
+            app:layout_constraintStart_toEndOf="@+id/cage"
+            app:layout_constraintTop_toTopOf="@+id/cage" />
+
+        <TextView
+            android:id="@+id/cage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:shadowColor="#80292929"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text=", 20"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/lay"
+            app:layout_constraintStart_toEndOf="@+id/cname"
+            app:layout_constraintTop_toTopOf="@+id/cname" />
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintBottom_toTopOf="@+id/myselfcard"
+
+            >
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:shadowColor="#80292929"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:src="@drawable/ic_location_on_black3_24dp"
+                />
+
+            <TextView
+                android:id="@+id/cdis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:text="ระยะห่าง"
+                android:textColor="@color/cpb_white"
+                android:shadowColor="#80292929"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:textSize="18dp"
+                 />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/myselfcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:paddingTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="myself"
+            android:shadowColor="#80292929"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textColor="#FFFFFF"
+
+            android:textSize="18dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/bb"
+            app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+        <LinearLayout
+            android:id="@+id/bb"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="18dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+

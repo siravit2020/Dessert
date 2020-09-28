@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="title_activity_choose_login_registration" translatable="false">ChooseLoginRegistrationActivity</string>
+    <string name="facebook_app_id">262691754922532</string> <string name="fb_login_protocol_scheme">fb262691754922532</string>
+
+
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">งานอดิเรก</string>
+    <string name="ok">ตกลง</string>
+    <string name="dismiss_label">ยกเลิก</string>
+    <string name="clear_all_label">เคลียร์</string>
+    <string name="txt_obtener_items">Obtener Items</string>
+    <string name="bar_profile">โปรไฟล์</string>
+    <string name="bar_match">จับคู่</string>
+    <string name="bar_nearby">ใกล้เคียง</string>
+    <string name="bar_chat">แชท</string>
+    <string name="showme">แสดงให้เห็น</string>
+    <string name="Male">ชาย</string>
+    <string name="Female">หญิง</string>
+    <string name="Everyone">ทุกคน</string>
+    <string name="Distance">ขอบเขต</string>
+    <string name="km">ระยะทาง</string>
+    <string name="age_range">อายุ</string>
+    <string name="language">ภาษา</string>
+    <string name="Signout">ออกจากระบบ</string>
+    <string name="Close_account">ปิดปัญชี</string>
+    <string name="People_like_you">คนถูกใจคุณ</string>
+    <string name="People_view">คนเข้าชมโปรไฟล์คุณ</string>
+    <string name="Setting">ตั้งค่า</string>
+    <string name="Edit">แก้ไขโปรไฟล์</string>
+    <string name="vip">รับ VIP</string>
+    <string name="tag_profile">รูปหลัก</string>
+    <string name="about_me">เกี่ยวกับฉัน</string>
+    <string name="Introduce_yourself">แนะนำตัวเอง</string>
+    <string name="study_career">การศึกษาและอาชีพ</string>
+    <string name="work">งานที่ทำ</string>
+    <string name="add">เพิ่ม</string>
+    <string name="school">โรงเรียน / มหาวิทยาลัย</string>
+    <string name="basic_info">ข้อมูลทั่วไป</string>
+    <string name="name">ชื่อ</string>
+    <string name="language_profile">ภาษา</string>
+    <string name="religion">ศาสนา</string>
+    <string name="Interests">สิ่งที่สนใจ</string>
+    <string name="see_people">ดูว่าใครเข้าชมโปรไฟล์คุณ</string>
+    <string name="see_empty">ยังไม่มีใครเข้าชมโปรไฟล์คุณ</string>
+    <string name="see_like">ดูว่าใครถูกใจคุณ</string>
+    <string name="like_empty">ยังไม่มีใครถูกใจคุณ</string>
+    <string name="today">วันนี้</string>
+    <string name="Male_semi">ช</string>
+    <string name="Female_semi">ญ</string>
+    <string name="Male_gender">ผู้ชาย</string>
+    <string name="Female_gender">ผู้หญิง</string>
+    <string name="report_reset">กรุณารอการรีเซ็ตในเวลาเที่ยงคืน</string>
+    <string name="report_alert">คำเตือน !!!</string>
+    <string name="report_close">ปิด</string>
+    <string name="report_fail">ทำการรายงานผู้ใช้ไม่สำเร็จ !!</string>
+    <string name="report_failed">ล้มเหลว</string>
+    <string name="report_suc2">ทำการรายงานผู้ใช้สำเร็จ</string>
+    <string name="report_suc">สำเร็จ</string>
+    <string name="cancle">ยกเลิก</string>
+    <string name="dialog_report">รายงาน</string>
+    <string name="dialog_reportUser">รายงานปัญหาผู้ใช้งาน</string>
+    <string name="report">รายงานผู้ใช้</string>
+    <string name="online">กำลังใช้งานอยู่</string>
+    <string name="dont_now_online">ไม่ทราบเวลาออนไลน์ล่าสุด</string>
+    <string name="hours_ago">ชั่วโมงที่แล้ว</string>
+    <string name="days_ago">วันที่แล้ว</string>
+    <string name="minutes_ago">นาทีที่แล้ว</string>
+    <string name="send_audio">คุณส่งไฟล์เสียง</string>
+    <string name="receive_audio">ส่งไฟล์เสียงให้คุณ</string>
+    <string name="send_picture">คุณส่งรูปภาพ</string>
+    <string name="receive_picture">ส่งรูปภาพให้คุณ</string>
+    <string name="let_start_chat">เริ่มการแชทของคุณสิ !!</string>
+    <string name="kilometer">กม.</string>
+    <string name="male">ช</string>
+    <string name="female">ญ</string>
+    <string name="times">ครั้ง</string>
+    <string name="count_report">จำนวน</string>
+    <string name="text_hi">ทักทาย</string>
+    <string name="yexy_message">ข้อความ</string>
+    <string name="start_chat">เริ่มแชท</string>
+    <string name="cancel_match">ยกเลิกจับคู่</string>
+    <string name="cancel_match2">ยกเลิกการจับคู่</string>
+    <string name="cancel_match_confirm">ต้องการยกเลิกการจับคู่ใช่หรือไม่ ?</string>
+    <string name="delete_message_all">ลบประวัติการแชท</string>
+    <string name="delete_message_all_confirm">คุณต้องการลบข้อความทั้งหมดใช่หรือไม่</string>
+    <string name="touch">แตะเพื่อดูโปรไฟล์</string>
+    <string name="singin_google">เข้าสู่ระบบด้วย Google</string>
+    <string name="signin_facebook">เข้าสู่ระบบด้วย Facebook</string>
+    <string name="signin_phone">เข้าสู่ระบบด้วยหมายเลขโทรศัพท์</string>
+    <string name="name_regis">ชื่อของคุณ</string>
+    <string name="name_regis_recommend">นี่คือชื่อของคุณที่จะแสดงให้ผู้อื่นเห็น</string>
+    <string name="hint_name">ชื่อ</string>
+    <string name="next_button">ต่อไป</string>
+    <string name="your_gender">เพศของคุณ</string>
+    <string name="your_age">วันเกิดของคุณ</string>
+    <string name="note_gender">หมายเหตุ: คุณไม่สามารถทำการแก้ไขเพศของคุณได้หลังจากการลงทะเบียนเสร็จสิ้น</string>
+    <string name="note_age">หมายเหตุ: ผู้ใช้งานจะต้องมีอายุ 18 ปีขึ้นไปเท่านั้น</string>
+    <string name="profile_image">รูปโปรไฟล์</string>
+    <string name="recommend_profile">โปรดอัพโหลดรูปภาพของคุณ ต้องเป็นรูปภาพที่ชัดเจนและห้ามนำรูปภาพของผู้อื่นมาแอบอ้าง</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="note_phone">เมื่อคุณแตะ ต่อไป แอปจะส่งข้อความพร้อมรหัสยืนยันให้กับคุณ หากหมายเลขโทรศัพท์ของคุณได้รับการยืนยันแล้ว แอปจะทำการเข้าสู่ระบบโดยอัตโนมัติ</string>
+    <string name="phone_hint">หมายเลขโทรศัพท์</string>
+    <string name="phine_no">หมายเลขโทรศัพท์ของคุณ</string>
+    <string name="otp">รหัสของคุณ</string>
+    <string name="verification">แอปพลิเคชั่นได้ส่งรหัสยืนยันไปที่</string>
+    <string name="please">โปรดกรอกด้านล่าง</string>
+    <string name="finish">เสร็จสิ้น</string>
+    <string name="registered">ลงทะเบียน</string>
+    <string name="See_who_like">ดูว่าใครถูกใจคุณคุณ</string>
+    <string name="Searching">กำลังค้นหา</string>
+    <string name="chatna_empty">ยังไม่มีใครทักทายคุณ \n รออีกหน่อยนะ</string>
+    <string name="Chat_empty">เมื่อคุณแมทช์กับผู้ใช้งานคนอื่น \n หรือเมื่อคุณยอมรับคำทักทาย \n คู่ของคุณจะปรากฎที่นี่</string>
+    <string name="Application_settings">ตั้งค่าแอปพิลเคชั่น</string>
+    <string name="Search_settings">ตั้งค่าการค้นหา</string>
+    <string name="Notifications">การแจ้งเตือน</string>
+    <string name="Active_status_settings">ตั้งค่าสถานะการใช้งาน</string>
+    <string name="Active_status">สถานะการใช้งาน</string>
+    <string name="Show_Active_status_recently">แสดงสถานะการใช้งานล่าสุด</string>
+    <string name="notify_match">แจ้งเตือนเมื่อปัดขวาเจอคู่แมทช์</string>
+    <string name="Application_has_sent">แอปพลิเคชั่นได้ส่งรหัสยืนยันไปที่</string>
+    <string name="Like_you_too">ถูกใจคุณเช่นเดียวกัน</string>
+    <string name="send_message">ส่งข้อความ</string>
+    <string name="Matching_mode">ทุกคนสามารถเมองเห็นคุณได้ในโหมดการจับคู่</string>
+    <string name="list_mode">ทุกคนสามารถมองเห็นคุณได้ในโหมดหาผู้ใช้ที่อยู่ใกล้เคียง</string>
+    <string name="See_other_user">ดูคนอื่นๆ</string>
+    <string name="Matched">จับคู่แล้ว</string>
+    <string name="new_matching">คู่แมตท์ใหม่</string>
+    <string name="you_and">คุณและ</string>
+    <string name="Matched2">จับคู่กันแล้ว</string>
+    <string name="You_have_a_new_match">คุณมีคู่ใหม่</string>
+    <string name="New_message">ข้อความใหม่</string>
+    <string name="You_have_new_message">คุณมีข้อความใหม่เข้า</string>
+    <string name="touch_settings">แตะเพื่อตั้งค่า</string>
+    <string name="Area">ไม่มีผู้ใช้คนอื่นในระยะ คุณสามารถเพิ่มระยะการค้นหาหรือขยายช่วงอายุได้</string>
+    <string name="GPS_Disabled">GPS ปิดอยู่</string>
+    <string name="GPS_open">GPS ของคุณปิดอยู่กรุณาเปิด GPS เพื่อใช้งานแอปพลิเคชัน</string>
+    <string name="open_gps">เปิด GPS</string>
+    <string name="enter_number">โปรดกรอกหมายเลขให้ถูกต้อง</string>
+    <string name="Close_account_confirm">คุณต้องการลบบัญชีนี้ออกจากระบบอย่างถาวรเใช่หรือไม่</string>
+    <string name="Vision_closed">ปิดการมองเห็น</string>
+    <string name="Vision_closed_match">หากคุณปิดการมองเห็นในโหมดจับคู่ ผู้ใช้คนอื่นจะไม่สามารถมองเห็นคุณ</string>
+    <string name="Vision_closed_nearby">หากคุณปิดการมองเห็นในโหมดหาูผ้ใช้ที่อยู่ใกล้เคียง ผู้ใช้คนอื่นจะไม่สามารถมองเห็นคุณ</string>
+    <string name="try_again">กรุณาดำเนินการใหม่ในภายหลัง</string>
+    <string name="Visibility_settings">ตั้งค่าการมองเห็น</string>
+    <string name="Visibility">การมองเห็น</string>
+    <string name="Send_a_message_to">ส่งข้อความหาเขาหน่อยสิ</string>
+    <string name="back">กลับ</string>
+    <string name="You_are_vip">คุณคือ VIP</string>
+    <string name="primary_profile_alert">หากคุณไม่มีรูปโปรไฟล์หลัก ผู้ใช้คนอื่นจะไม่สามรถมองเห็นคุณได้ คุณต้องการออกใช่หรือไม่</string>
+    <string name="delete_image">ลบรูปภาพ</string>
+    <string name="delete_image_confirm">คุณต้องการลบรูปภาพใช่หรือไม่</string>
+    <string name="Sign">เข้าสู่ระบบ</string>
+    <string name="logging">คุณกำลังเข้าสู่ระบบโดยอัตโนมัติ</string>
+    <string name="Noti">แจ้งเตือน</string>
+    <string name="up18">เฉพาะผู้ที่มีอายุ 18 ขึ้นไปเท่านั้น</string>
+    <string name="enter_name">โปรดกรอกชื่อของคุณ</string>
+    <string name="choose_gender">โปรดเลือกเพศของคุณ</string>
+    <string name="choose_photo">โปรดเลือกรูปโปรไฟล์ของคุณ</string>
+    <string name="off_status">ไม่แสดงสถานะ</string>
+    <string name="ok_QA">ยืนยัน</string>
+    <string name="next_QA">ถัดไป</string>
+    <string name="previous_QA">ย้อนกลับ</string>
+    <string name="QA_choice1">สำคัญนิดหน่อย</string>
+    <string name="QA_choice2">ค่อนข้างสำคัญ</string>
+    <string name="QA_choice3">สำคัญ</string>
+    <string name="QA_choice4">สำคัญมาก</string>
+    <string name="QA_choice5">เป็นเรื่องคอขาดบาดตาย</string>
+
+
+
+
+    <string-array name="shopping_item">
+        <item>จัดดอกไม้-ทำสวน</item>
+        <item>ทำอาหาร</item>
+        <item>เย็บปักถักร้อย</item>
+        <item>เล่นกีฬา</item>
+        <item>หัดแต่งหน้า-ทำผม</item>
+        <item>ท่องเที่ยว</item>
+        <item>ถ่ายรูป</item>
+        <item>ทำบล๊อก-Vlog</item>
+        <item>ดูภาพยนตร์-ซีรี่ส์</item>
+        <item>อ่านหนังสือ</item>
+        <item>ทำงานฝีมือ</item>
+        <item>กิจกรรมอาสา</item>
+        <item>ร้องเพลง</item>
+        <item>เต้น</item>
+        <item>ด่าสมพร</item>
+        <item>เล่นเกม</item>
+        <item>แข่งรถ</item>
+    </string-array>
+
+    <string-array name="pasa_item">
+        <item>English</item>
+        <item>ไทย</item>
+        <item>汉语 官话</item>
+        <item>Español</item>
+        <item>العربية</item>
+        <item>हिन्दी</item>
+        <item>Português</item>
+        <item>বাংলা</item>
+        <item>Русский язык</item>
+        <item>日本語</item>
+        <item>Deutsch</item>
+        <item>Basa Jawa</item>
+        <item>汉语, 吴方言</item>
+        <item>తెలుగు</item>
+        <item>मराठी</item>
+        <item>Tiếng Việt</item>
+        <item>한국어, 조선말</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>ਪੰਜਾਬੀ, پنجابی</item>
+        <item>اُردو</item>
+        <item>汉语, 粵語, 廣東語</item>
+        <item>हTürkçe</item>
+        <item>汉语, 閩方言</item>
+        <item>ગુજરાતી</item>
+        <item>język polski</item>
+        <item>украї́нська мо́ва</item>
+        <item>فارسی</item>
+        <item>മലയാളം</item>
+        <item>ಕನ್ನಡ </item>
+        <item>ଓଡ଼ିଆ</item>
+        <item>မြန်မာ</item>
+    </string-array>
+
+    <string-array name="religion_item">
+        <item>พุทธ</item>
+        <item>คริสต์</item>
+        <item>อิสลาม</item>
+        <item>พราหมณ์-ฮินด</item>
+        <item>ซิกข์</item>
+        <item>เชน</item>
+        <item>โซโรอสเตอร</item>
+        <item>บาไฮ</item>
+        <item>ลัทธิเบคอน</item>
+        <item>ไม่นับถือศาสนา</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+    <string-array name="report_item">
+        <item>ใช้รูปภาพของผู้อื่น</item>
+        <item>ผู้ใช้อายุไม่ถึง 18 ปี</item>
+        <item>รูปภาพลามก-อนาจาร</item>
+        <item>ปลุกปั่นให้เกิดความแตกแยก</item>
+        <item>ใช้คำพูดไม่เหมาะสม</item>
+        <item>มีการโฆษณาแอบแฝง</item>
+        <item>ล่อลวงหลอกถามข้อมูลผู้ใช้งาน</item>
+    </string-array>
+
+    <string-array name="chat_item">
+        <item>คัดลอก</item>
+        <item>ลบข้อความ</item>
+    </string-array>
+
+    <string-array name="chat_item_image">
+        <item>ดาวน์โหลดภาพ</item>
+    </string-array>
+    <string name="QA_improtant">ความสำคัญของคำถามนี้ ?</string>
+
+</resources>

@@ -1,0 +1,116 @@
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.jabirdeveloper.tinderswipe"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.afollestad:viewpagerdots:1.0.0' //เทส dot Viewpager
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.yarolegovich:lovely-dialog:1.1.0'
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.3@aar'
+    implementation 'com.yuyakaido.android:card-stack-view:2.3.4'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.tapadoo.android:alerter:6.1.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:19.4.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.4.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.yuyakaido.android:card-stack-view:2.3.4'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.lorentzos.swipecards:library:1.0.9'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.facebook.android:facebook-android-sdk:7.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.vanniktech:vntnumberpickerpreference:1.0.0'
+    implementation 'com.hbb20:ccp:2.1.9'
+    implementation 'com.github.dmytrodanylyk.circular-progress-button:library:1.1.3'
+    implementation 'com.google.android:flexbox:2.0.1'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+    implementation 'androidx.legacy:legacy-support-v4'
+    implementation 'com.shawnlin:number-picker:2.4.9'
+    implementation 'com.haozhang.libary:android-slanted-textview:1.2'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.ismaeldivita.chipnavigation:chip-navigation-bar:1.3.1'
+    implementation 'com.skyline.widget:round-corner-layout:1.0.1'
+    implementation 'me.jahirfiquitiva:FABsMenu:1.1.4'
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+    def htextview_version = "0.1.6"
+    implementation 'com.ldoublem.loadingview:loadingviewlib:1.0'
+    implementation "com.hanks:htextview-line:$htextview_version"
+    implementation "com.hanks:htextview-base:$htextview_version"
+    implementation "com.hanks:htextview-fade:$htextview_version"
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    testImplementation 'junit:junit:4.13'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.eightbitlab:blurview:1.6.3'
+    implementation 'com.github.hearsilent:DiscreteSlider:1.2.1'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    implementation "com.hendraanggrian.appcompat:pinview:0.2"
+    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'me.relex:circleindicator:2.1.4'
+    implementation 'com.github.demoNo:AutoScrollViewPager:v1.0.2'
+    implementation 'com.victor:lib:1.0.4'
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+    api "com.google.firebase:firebase-ml-vision:24.0.3"
+    implementation "com.google.firebase:firebase-ml-vision-automl:18.0.5"
+    implementation "com.google.firebase:firebase-ml-model-interpreter:22.0.3"
+    implementation 'com.github.nipunru:nsfw-detector-android:1.0.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha07'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'com.muddzdev:styleabletoast:2.2.3'
+    implementation 'com.jaredrummler:animated-svg-view:1.0.6'
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.anjlab.android.iab.v3:library:1.1.0'
+    implementation 'com.google.firebase:firebase-functions-ktx:19.1.0'
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+    implementation 'com.akexorcist:localization:1.2.6'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+}

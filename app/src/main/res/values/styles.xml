@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c2</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/c3</item>
+        <item name="colorButtonNormal">@color/c2</item>
+        <item name="colorControlHighlight">#4DB3B3B3</item>
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/sarabun_regular</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>
+
+</style>
+    <style name="font" parent="AppTheme">
+        <item name="fontFamily">@font/lemon</item>
+    </style>
+    <style name="changfont" parent="AppTheme">
+        <item name="fontFamily">@font/k2d_bold</item>
+    </style>
+    <style name="AppTheme.TransparentTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="CustomDialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">@color/c3</item>
+    </style>
+    <style name="AppTheme2" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/c1</item>
+    </style>
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/c3</item>
+    </style>
+    <style name="Numberpicker" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/c2</item>
+        <item name="android:textColorPrimary">@color/text_gray</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="EditTextTintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/c2</item>
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- Used for the title and text -->
+
+
+        <!-- Used for the background -->
+        <item name="android:background">#4CAF50</item>
+
+
+        <item name="android:textColor">#FFC107</item>
+        
+    </style>
+    <style name="alertButton" parent="AlertButton">
+        <item name="colorButtonNormal">@color/float_transparent</item>
+    </style>
+    <style name="AlertDialog2" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#595959</item>
+        <item name="android:colorAccent">@color/c2</item>
+    </style>
+    <style name="MyDialogTheme2" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowBackground">@color/white_tran</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.TextButton" parent="">
+        <item name="colorPrimary">@color/c3</item>
+    </style>
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+    <style name="Widget.App.Button2" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="android:textColor">@color/c1</item>
+    </style>
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/c3</item>
+        <item name="colorSecondary">@color/c3</item>
+        <item name="colorSurface">@color/c2</item>
+        <item name="colorOnSurface">@color/c1</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button2</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.App.Button2</item>
+    </style>
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+    </style>
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorSecondary">@color/c3</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
+    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearance.App.SmallComponent
+        </item>
+    </style>
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/text_gray</item>
+    </style>
+
+
+</resources>

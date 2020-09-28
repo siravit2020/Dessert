@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "88018878458",
+    "firebase_url": "https://tinder-3ac12.firebaseio.com",
+    "project_id": "tinder-3ac12",
+    "storage_bucket": "tinder-3ac12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88018878458:android:3a8bedcf54e07ebcfbee43",
+        "android_client_info": {
+          "package_name": "com.jabirdeveloper.tinderswipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88018878458-9cpvgccm2fvlnjfd6od0hl3buml9ctbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jabirdeveloper.tinderswipe",
+            "certificate_hash": "e0bcca8b1e3ac0fcf64472c78037e58c91946603"
+          }
+        },
+        {
+          "client_id": "88018878458-bnfoddk95qdv92cpntt9m7aafucejgs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jabirdeveloper.tinderswipe",
+            "certificate_hash": "3780312d75bc5474222fdc0188b462e3cd1284f4"
+          }
+        },
+        {
+          "client_id": "88018878458-2sta5n8g3d0founan0uje2h6oplnal16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jabirdeveloper.tinderswipe",
+            "certificate_hash": "5d300f36e8f6822a4f45a4442be91f1ea3138c14"
+          }
+        },
+        {
+          "client_id": "88018878458-dvdrf50iu8j72icgioi3tshp34ktu8hs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jabirdeveloper.tinderswipe",
+            "certificate_hash": "e9743cd6dfe0792d2edb1e323733757a8b59ac97"
+          }
+        },
+        {
+          "client_id": "88018878458-7vch098qeadeklm5m2v3setdudj7ddra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrvYWPMkX3gLS5bwl1jiQt0PZuETlrYhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88018878458-7vch098qeadeklm5m2v3setdudj7ddra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

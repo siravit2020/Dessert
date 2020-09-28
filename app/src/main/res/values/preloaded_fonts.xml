@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/kanit</item>
+        <item>@font/kanit_thin</item>
+        <item>@font/mitr</item>
+        <item>@font/mitr_extralight</item>
+        <item>@font/mitr_light</item>
+        <item>@font/mitr_medium</item>
+        <item>@font/pridi</item>
+        <item>@font/trirong_medium</item>
+    </array>
+</resources>

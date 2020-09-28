@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF3774</color>
+    <color name="c1">#EC407A</color>
+    <color name="c2">#26C6DA</color>
+    <color name="c3">#FFA726</color>
+    <color name="c4">#AB47BC</color>
+    <color name="c4tran">#80AB47BC</color>
+    <color name="text_gray">#9A9A9A</color>
+    <color name="text_black_gray">#292929</color>
+    <color name="background_gray">#F1F1F1</color>
+    <color name="background_white">#FFFDFA</color>
+    <color name="pink">#FFD54F</color>
+    <color name="white_tran">#80FFFFFF</color>
+    <color name="red">#FF004E</color>
+    <color name="white">#FFFFFF</color>
+    <integer-array name="google_glyph_colors">
+        <item>@color/text_black_gray</item>
+    </integer-array>
+    <color name="black">#FF000000</color>
+    <color name="y1">#ffe07d</color>
+    <color name="v1">#bc95e2</color>
+    <color name="v2">#ac80dd</color>
+    <color name="v3">#f9efda</color>
+    <color name="v4">#f6e4c1</color>
+    <integer-array name="candy_color">
+        <item>@color/v1</item>
+        <item>@color/v1</item>
+        <item>@color/v2</item>
+        <item>@color/v2</item>
+        <item>@color/v3</item>
+        <item>@color/v4</item>
+        <item>@color/v1</item>
+        <item>@color/v1</item>
+        <item>@color/v2</item>
+        <item>@color/v2</item>
+        <item>@color/y1</item>
+        <item>@color/y1</item>
+        <item>@color/y1</item>
+        <item>@color/y1</item>
+        <item>@color/y1</item>
+        <item>@color/y1</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+        <item>@color/black</item>
+    </integer-array>
+</resources>

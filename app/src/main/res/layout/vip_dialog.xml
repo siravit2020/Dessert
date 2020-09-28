@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical"
+
+
+            >
+
+
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cpb_white"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Dessert VIP"
+            android:textColor="@color/c1"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.github.demono.AutoScrollViewPager
+            android:background="@color/cpb_white"
+            android:id="@+id/viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:stopWhenTouch="true"
+            app:slideInterval="3500"
+            app:slideDirection="right"
+            app:slideDuration="1000"
+            app:cycle="true"
+            />
+
+        </RelativeLayout>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            app:ci_drawable="@drawable/circle_pager"
+            app:ci_drawable_unselected="@drawable/circle_pager2"
+            android:background="@color/cpb_white"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/viewpage"
+            android:layout_marginBottom="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:background="@drawable/roundlike3"
+                >
+                <TextView
+                    android:id="@+id/test_de"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="ดูโฆษณาเพื่อรับ จำนวนกดถูกใจ เพิ่ม \n หรือสมัคร Dessert VIP เพื่อรับสิทธิพิเศษต่างๆ"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/cpb_white"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+                        <Button
+                            android:layout_marginBottom="10dp"
+                            android:id="@+id/admob"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="กำลังโหลดโฆษณา"
+                            android:textColor="@color/text_black_gray"
+                            android:backgroundTint="@color/white"
+                            />
+
+                        <Button
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/buy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="฿100.00 / เดือน"
+                            android:textColor="@color/text_black_gray"
+                            android:backgroundTint="@color/white"
+                            />
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

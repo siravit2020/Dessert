@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SwitchpageActivity">
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="0dp"
+        android:background="@color/background_white"
+        app:cnb_backgroundColor="@color/cpb_white"
+        app:cnb_badgeColor="@color/c4"
+        app:cnb_menuResource="@menu/menu" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar2"
+        android:orientation="vertical">
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/candyCane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/cpb_white"
+    >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="190dp"
+            android:src="@drawable/ic_candy_cane"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textSize="35dp"
+            android:textColor="@color/text_black_gray"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
